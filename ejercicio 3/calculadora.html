@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <link href="calculadora.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>Ejercicio: 3</header>
+    <main>
+        <div class="container">
+            <input type="number" class="num1" placeholder="Número 1">
+            <input type="number" class="num2" placeholder="Número 2">
+            <select id="operation">
+              <option value="add">Suma</option>
+              <option value="subtract">Resta</option>
+              <option value="multiply">Multiplicación</option>
+              <option value="divide">División</option>
+            </select>
+            <button onclick="calculate()">Calcular</button>
+            <p class="result"></p>
+          </div>
+    </main>
+    <script src="calculadora.js"></script>  
+</body>
+</html>

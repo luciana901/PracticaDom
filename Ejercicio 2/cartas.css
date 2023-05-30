@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Great Vibes", cursive;
+  }
+  div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+ 
