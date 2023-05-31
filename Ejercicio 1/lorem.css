@@ -1,20 +1,21 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  h1{
-    color: black;
-    font-family: "Great Vibes", cursive;
-  }
-  input{
-    color: black;
-    font-family: "Great Vibes", cursive;
-  }
-  .orange_text{
-    color: purple;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: black;
+  font-family: "Great Vibes", cursive;
+}
+p {
+  color: purple;
+  font-size: 20px;
+}
+
+.text-orange {
+  color: orange;
 }

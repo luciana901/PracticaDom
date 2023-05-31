@@ -1,10 +1,8 @@
-let paragraph = document.getElementById("myParagraph");
-        let button = document.getElementById("myButton");
+let paragraph = document.querySelector("p");
+let button = document.getElementById("toggler");
 
-        button.addEventListener("click", function() {
-            if (paragraph.style.color === "purple") {
-                paragraph.style.color = "orange";
-            } else {
-                paragraph.style.color = "purple";
-            }
-        });
+button.addEventListener("click", updateName);
+
+function updateName() {
+  paragraph.classList.toggle("text-orange");
+}
